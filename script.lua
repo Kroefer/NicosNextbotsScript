@@ -1,6 +1,6 @@
 --Made By Kroefer
 --Nicos nextbots scripts made by Darijus#1071
---i love u for using dis crappy goofy ahh shit
+--this probally doesent work anymore
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Window", "DarkTheme")
     -- MAIN
