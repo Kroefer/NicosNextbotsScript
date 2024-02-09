@@ -51,8 +51,8 @@ local MainSection = Main:NewSection("cool scripts")
     local Other = Window:NewTab("-----")
     local OtherSection = Other:NewSection("-----")
 
-    OtherSection:NewButton("under this tab is shit made by Darijus#1071", "gibe credit to him", function()
-        print("under this section is shit made by Darijus#1071")
+    OtherSection:NewButton("under this section there are parts of Darijus#1071's script", "gibe credit to him", function()
+        print("under this section there are parts of Darijus#1071's script")
     end)
 
 local Main = Window:NewTab("LocalPlayer")
@@ -121,10 +121,10 @@ end
 end
 end)
 end)
-ShitSection:NewButton("Bhop (WIP) (wont work)", "work in progress", function(v)
-local RS = game:GetService("RunService")
+--ShitSection:NewButton("Bhop (WIP) (wont work)", "work in progress", function(v)
+--local RS = game:GetService("RunService")
 --RS.RenderStepped:Connect(function()
-_G.bhp = v
+--_G.bhp = v
 --while _G.bhp do
 
 --keypress(0x20) wait() keyrelease(0x20) wait(1)
@@ -627,18 +627,10 @@ local ShitSection3 = Main3:NewSection("Made By Kroefer")
 local ShitSection3 = Main3:NewSection("Nicos Nextbots shit Made by Darijus#1071")
 local ShitSection3 = Main3:NewSection("Latest update: 8/12/2022")
 local ShitSection3 = Main3:NewSection("Update: Added PowerBox ESP")
-local number = math.random(1,15)
-if number == math.random(1,15) or number == math.random(1,15) then
-warn('---------------------------------------------------------------------------------------------')
-warn('your number is: '..number..' so you get to access the cursed tab C:')
-warn('---------------------------------------------------------------------------------------------')
+end)
+
 local Main4 = Window:NewTab("Cursed")
 local cursed = Main4:NewSection('DO NOT USE (I am not responsible for your actions)')
-cursed:NewButton('B̷͇̈́̇̚͝ă̷̧̳͍̘̌́n̸͒̑͑̂̐͜ ̸̟͚̉Ý̷̢̗̖͕̩̒͝o̵̻̳͍͑̅ụ̵̡̥̀͘r̸̩͚̒s̵͕̪̲̀̎͝è̶̡͙͚̀͆l̵͕̬̩̿͐̃f̷̟̾̎̂','uhhhhhh idk', function(v)
+cursed:NewButton('ban urself','uhhhhhh idk', function(v)
 game:GetService("ReplicatedStorage").events.ban:FireServer()
 end)
-else
-print('--------------------------------------------------------------------------------------------------------------')
-print('Script - your number is: '..number..', better luck next time C:')
-print('--------------------------------------------------------------------------------------------------------------')
-end
